@@ -1,0 +1,5 @@
+import numpy as np
+
+y = np.array([[1,1,2,2,3,3],[4,4,5,5,6,6]])
+print(y)
+print(y[0, 3]) # print(y[0][3])으로 써도 출력 결과는 동일하다.
