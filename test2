@@ -1,0 +1,10 @@
+import numpy as np
+A = np.array([[4,5], [3,4]])
+B = np.array([[2,3], [2,4]])
+C = A@B
+print(C)
+print()
+D = np.linalg.inv(A)
+print(D)
+print()
+print(np.dot(A, D)) # 내적 연산자를 이용한 계산을 np.dot() 함수를 활용해 연산
