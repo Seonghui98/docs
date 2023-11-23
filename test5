@@ -1,0 +1,7 @@
+nda=np.arange(24).reshape(4,3,2)
+ndb=np.arange(6).reshape(3,2)
+ndc=np.arange(3).reshape(3,1)
+print(nda)
+print(ndb)
+print(ndc)
+print(nda+ndb-ndc)
